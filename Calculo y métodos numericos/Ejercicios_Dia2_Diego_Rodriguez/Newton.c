@@ -18,14 +18,9 @@ float y2FuncionH(float x)
 
 int main()
 {
-    float x0, e, x1;
-    int N, step;
+    float x0 = 1.0, e = 0.01, x1;
+    int N = 100, step = 1;
     
-    step = 1;
-    e = 0.01;
-    N = 100;
-    x0 = 1.0;
-
     do{
         if (y1FuncionG(x0) == 0)
         {

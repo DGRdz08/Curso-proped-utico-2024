@@ -7,12 +7,9 @@ float miFuncion(float x){
 
 int main()
 {
-	float a, b, h,k, integral;
-	int n, i;
-	a=0;
-	b=0.8;
-	n=10;
-	i=1;
+	float a = 0.0, b = 0.8, h,k, integral;
+	int n = 10, i = 1;
+
 	h = (b-a)/n;
 	integral=miFuncion(a) + miFuncion(b);
 	do{

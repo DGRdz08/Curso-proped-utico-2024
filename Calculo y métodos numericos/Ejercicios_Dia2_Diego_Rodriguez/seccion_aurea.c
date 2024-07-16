@@ -8,17 +8,13 @@ float miFuncion(float x)
 
 int main()
 {
-    float a, b, e, tau, x1, x2, f1, f2;
+    float a = 1.0, b = 4.0, e = 0.01, tau = 0.618, x1, x2, f1, f2;
     int step = 1;
 
-    tau = 0.618;
-    a = 1;
-    b = 4;
     x1 = a + tau * (b - a);
     x2 = b - tau * (b - a);
     f1 = miFuncion(x1);
     f2 = miFuncion(x2);
-    e = 0.01;
 
     printf("\nStep\t\ta\t\tx2\t\tx1\t\tb\n");
     do

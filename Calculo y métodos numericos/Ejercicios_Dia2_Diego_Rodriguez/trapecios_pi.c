@@ -8,12 +8,9 @@ float miFuncion(double x){
 
 int main()
 {
-	double a, b, h,k, integral;
-	long int n, i;
-	a=0;
-	b=2;
-	n=100000;
-	i=1;
+	double a = 0.0, b = 2.0, h,k, integral;
+	long int n=100000, i = 1;
+	
 	h = (b-a)/n;
 	integral=miFuncion(a) + miFuncion(b);
 	do{

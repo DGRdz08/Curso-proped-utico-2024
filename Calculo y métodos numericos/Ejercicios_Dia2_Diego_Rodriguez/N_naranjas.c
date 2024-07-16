@@ -13,13 +13,9 @@ float y2FuncionH(float x)
 
 int main()
 {
-    float x0, e, N, h, g, x1;
-    int step;
+    float x0 = 80, e = 0.01, N = 20, h, g, x1;
+    int step = 1;
     
-    step = 1;
-    e = 0.01;
-    N = 20;
-    x0 = 80;
     g = y1FuncionG(x0);
     h = y2FuncionH(x0);
 
