@@ -8,13 +8,8 @@ return pow(x,3) - pow(x,2)/2-3*x+2;
 
 int main()
 {
-    float e, x0, x1, x2, f0, f1, f2;
-    int step;
-
-    x0 = 0.5;
-    x1 = 1.0;
-    e = 0.01;
-    step = 0;
+    float e = 0.01, x0 = 0.5, x1 = 1.0, x2, f0, f1, f2;
+    int step = 0;
 
     f0 = miFuncion(x0);
     f1 = miFuncion(x1);

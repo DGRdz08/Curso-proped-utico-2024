@@ -6,14 +6,8 @@ float miFuncion(float x) {
 }
 
 int main() {
-    float error, e, x0, x1, x2, f0, f1;
-    int N, step;
-
-    x0 = 0.5;
-    x1 = 1.0;
-    e = 0.01;
-    step = 0;
-    N = 100;
+    float error, e = 0.001, x0 = 0.5, x1 = 1.0, x2, f0, f1;
+    int N = 100, step = 0;
 
     printf("\nStep\t\tx0\t\tx1\t\tf0\t\tf1\n");
 
